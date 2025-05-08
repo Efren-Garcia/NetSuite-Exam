@@ -902,7 +902,8 @@
     ],
     "correctIndex": 1
   },
-    
+  
+  
   {
     "question": "Which statement is true about using Quick Accept in Event records?",
     "options": [
@@ -1356,7 +1357,7 @@
             "The user must have at least a Full/Edit level permission to Rename Records/Transactions in order for changes to save.",
             "The user is logged into another role that uses the classic Center tab. Since renaming records or transactions is a user preference, the name change does not apply to that role."
           ],
-          "correctIndex": [1]
+          "correctIndex": [0]
         },
           {
             "question": "Which statement is most helpful when a saved search isn’t functioning correctly? (Choose 1.)",
