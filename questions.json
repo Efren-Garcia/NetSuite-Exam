@@ -912,16 +912,7 @@
     ],
     "correctIndex": 3
   },
-  {
-    "question": "Which statement is true about customer credit memos and inventory items?",
-    "options": [
-      "A credit memo created from a return authorization has no impact on inventory, however, a stand-alone credit memo does impact inventory.",
-      "A credit memo created from a return authorization reduces inventory quantity.",
-      "A credit memo created from a return authorization impacts inventory, while a stand-alone credit memo does not impact inventory.",
-      "A stand-alone credit memo reduces inventory quantity."
-    ],
-    "correctIndex": 3
-  },
+  
   {
     "question": "Which statement is true about using Quick Accept in Event records?",
     "options": [
@@ -1042,16 +1033,7 @@
     ],
     "correctIndex": [2]
   },
-  {
-    "question": "Which statement is correct about renaming records/transactions? (Choose 1.)",
-    "options": [
-      "Abbreviations for Transaction Names can only contain up to 10 alphanumeric and/or special characters.",
-      "The renaming process applies to each language used within the system.",
-      "The navigational path to the record updates with the renaming.",
-      "Abbreviations for Account Type Names can be used to access the account when recording journal entries."
-    ],
-    "correctIndex": [2]
-  },
+  
   {
     "question": "A user observed that the Email and Export buttons are missing on reports. What could cause this? (Choose 1.)",
     "options": [
@@ -1335,16 +1317,7 @@
           ],
           "correctIndex": [1]
         },
-        {
-          "question": "When creating a new Employee record, the user is unable to change the value in the Job Title field. What could be the cause? (Choose 1.)",
-          "options": [
-            "The field is set to inactive.",
-            "Store value is unchecked.",
-            "Field Sourcing is not set.",
-            "Field Display Type is set to Inline on the custom form."
-          ],
-          "correctIndex": [3]
-        },
+       
         {
           "question": "Which statement is true regarding the Quick Search portlet and Global Search? (Choose 1.)",
           "options": [
