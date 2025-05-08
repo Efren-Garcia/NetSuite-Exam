@@ -840,6 +840,7 @@
     ],
     "correctIndex": 1
   },
+
   {
     "question": "Which statement is true about dashboards?",
     "options": [
@@ -951,6 +952,543 @@
     ],
     "correctIndex": 1
   },
+  {
+    "question": "Which feature separates the Shipping and the Billing processes in NetSuite? (Choose 1.)",
+    "options": [
+      "Advanced Billing",
+      "Advanced Accounting",
+      "Advanced Shipping",
+      "Advanced Shipping Integration"
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "Which feature allows users to assign a specific price for an item on a Customer record? (Choose 1.)",
+    "options": [
+      "Item Pricing",
+      "Group Pricing",
+      "Price Level",
+      "Base Price"
+    ],
+    "correctIndex": [0]
+  },
+  {
+    "question": "Which subsidiary restriction type limits a role access to a selected subsidiary on their Employee record? (Choose 1.)",
+    "options": [
+      "Selected",
+      "Subsidiary",
+      "Employee Subsidiary",
+      "All"
+    ],
+    "correctIndex": [1]
+  },
+  {
+    "question": "How can an Administrator access open case tickets submitted to NetSuite Support by another user? (Choose 1.)",
+    "options": [
+      "Using the Administrator role, navigate to Lists > Support > Cases.",
+      "Click the NetSuite Account Center portlet link in the Support tab.",
+      "In SuiteAnswers, below the Contact Support Online button, click the Open Cases link.",
+      "Access the Help Center and search for Case Tickets."
+    ],
+    "correctIndex": [1]
+  },
+  {
+    "question": "Which record is a non-posting transaction? (Choose 1.)",
+    "options": [
+      "Statement Charges",
+      "Credit Memo",
+      "Sales Order",
+      "Return Receipts"
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "Which statement is true about the Help Desk feature? (Choose 1.)",
+    "options": [
+      "Time Tracking is available in the Standard Help Desk form.",
+      "The Help Desk feature enables users to manage internal and external cases.",
+      "The Help Desk feature excludes rules and territories.",
+      "Cases designated as Help Desk are excluded from case reports."
+    ],
+    "correctIndex": [1]
+  },
+  {
+    "question": "Which portlet shows a performance scorecard with comparisons across multiple Key Performance Indicators (KPIs)? (Choose 1.)",
+    "options": [
+      "KPI Meter",
+      "Key Performance Indicators",
+      "KPI Scorecard",
+      "Trend Graphs"
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "Where should additional restrictions be added to further refine the results of a Saved Search? (Choose 1.)",
+    "options": [
+      "Criteria",
+      "Available Filters",
+      "Results",
+      "Highlighting"
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "Which statement is true regarding system notes? (Choose 1.)",
+    "options": [
+      "NetSuite deletes system notes if they exceed the maximum allowed limit.",
+      "Administrators can update system notes.",
+      "System notes are searchable using a saved search.",
+      "System notes are recorded only if changes are made in the NetSuite Interface."
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "Which statement is correct about renaming records/transactions? (Choose 1.)",
+    "options": [
+      "Abbreviations for Transaction Names can only contain up to 10 alphanumeric and/or special characters.",
+      "The renaming process applies to each language used within the system.",
+      "The navigational path to the record updates with the renaming.",
+      "Abbreviations for Account Type Names can be used to access the account when recording journal entries."
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "A user observed that the Email and Export buttons are missing on reports. What could cause this? (Choose 1.)",
+    "options": [
+      "The report is running in the background, which causes the download to be available only on the Report Results page.",
+      "The report results exceed the maximum size of the file that can be emailed or exported.",
+      "The role being used has no access permission to the File Cabinet.",
+      "The role being used has no Export Lists permission."
+    ],
+    "correctIndex": [3]
+  },
+  {
+    "question": "Which actions can users perform from the Settings portlet? (Choose 2.)",
+    "options": [
+      "Change Password",
+      "Create a Custom Record",
+      "Enable Features",
+      "Add Permissions",
+      "Personalize Dashboard"
+    ],
+    "correctIndex": [0, 4]
+  },
+  {
+    "question": "When setting up security questions, how many times can users dismiss the prompt before it becomes mandatory? (Choose 1.)",
+    "options": [
+      "5",
+      "3",
+      "6",
+      "2"
+    ],
+    "correctIndex": [0]
+  },
+  {
+    "question": "How many Analytics portlets can be added to the Home dashboard by default? (Choose 1.)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "5"
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "Which statement is true regarding the Create New Menu in NetSuite? (Choose 1.)",
+    "options": [
+      "The Create New menu includes links to create new transactions only.",
+      "The Create New menu is visible only on the Home dashboard.",
+      "Available options are limited by the role a user is logged in with.",
+      "Options in the Create New menu can be personalized through the Set Preferences page."
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "Which feature cannot be disabled once it is enabled? (Choose 1.)",
+    "options": [
+      "Consolidated Payments",
+      "Expense Allocation",
+      "Vendor Prepayments",
+      "Advanced Revenue Management"
+    ],
+    "correctIndex": [3]
+  },
+  {
+    "question": "Which user-level preference lets you choose whether to print records in PDF or HTML format? (Choose 1.)",
+    "options": [
+      "PDF Language",
+      "Print Using HTML",
+      "PDF Page Orientation",
+      "Print Template"
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "An Administrator would like to track changes to the item quantity on a Sales Order. Which functionality would the Administrator use? (Choose 1.)",
+    "options": [
+      "Track Changes Option",
+      "Transaction Audit Trail",
+      "Line-Level Audit Trail for Transactions",
+      "Transaction System Notes"
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "What kind of custom field can Administrators create to add a column on the Item sublist of Sales Orders? (Choose 1.)",
+    "options": [
+      "Custom Transaction Body fields",
+      "Custom Transaction Line fields",
+      "Custom Item fields",
+      "Custom Transaction Item options"
+    ],
+    "correctIndex": [1]
+  },
+  {
+    "question": "Which transaction reduces the quantity on hand of an inventory item? (Choose 1.)",
+    "options": [
+      "Vendor Return Authorization",
+      "Sales Order",
+      "Stand-alone Invoice",
+      "Stand-alone Vendor Bill"
+    ],
+    "correctIndex": [1]
+  },
+  {
+    "question": "Which statement is true about dashboards? (Choose 1.)",
+    "options": [
+      "Portlet controls on dashboards are hidden, unless in full-screen view.",
+      "Only Administrators can arrange portlets on users' dashboards.",
+      "NetSuite Home page content depends on user roles.",
+      "Use drag and drop to move portlets between NetSuite dashboards."
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "A user is trying to view a standard report in NetSuite. The report has been loading for three minutes. The user suspects that the slowness is caused by using a recently installed browser. Which of the following actions will confirm that the performance issue is caused by the browser or not? (Choose 1.)",
+    "options": [
+      "Use the Application Performance Management to improve performance.",
+      "Run the same report in a different window while the original report is still running.",
+      "Double-click the Oracle NetSuite logo and look at Browser Time.",
+      "Log in to NetSuite using a different browser and check the report performance."
+    ],
+    "correctIndex": [3]
+  },
+  {
+    "question": "Which item type can users add as a component of a Regular Assembly Item? (Choose 1.)",
+    "options": [
+      "Serialized Item",
+      "Lot Numbered Item",
+      "Service Item",
+      "Component Item"
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "How do you identify if a NetSuite record has scripts or workflows applied to it? (Choose 1.)",
+    "options": [
+      "View the record and look under the Customization tab.",
+      "Customize the form and look under the Scripting section.",
+      "Navigate to the Scripted Records page.",
+      "Use the Script Debugger."
+    ],
+    "correctIndex": [2]
+  },
+  {
+    "question": "A user created a Purchase Order with billable expenses. When can the user invoice the billable costs to a customer? (Choose 1.)",
+    "options": [
+      "After approving the Purchase Order.",
+      "After billing the Purchase Order.",
+      "After fulfilling the Purchase Order.",
+      "After saving the Purchase Order."
+    ],
+    "correctIndex": [1]
+  },
+    {
+      "question": "If unable to access the NetSuite user interface, where can users go to find the current system status? (Choose 1.)",
+      "options": [
+        "system.netsuite.com/status",
+        "status.netsuite.com",
+        "www.netsuite.com/status",
+        "netsuite.com"
+      ],
+      "correctIndex": [1]
+    },
+    {
+      "question": "When creating a Payment Method, what type applies to payments that occur outside of NetSuite (for example, cash payments)? (Choose 1.)",
+      "options": [
+        "Pay By Reference",
+        "General Token",
+        "External Checkout",
+        "Offline"
+      ],
+      "correctIndex": [3]
+    },
+    {
+      "question": "Where can a user add external URLs to appear on the Home dashboard? (Choose 1.)",
+      "options": [
+        "External Links Portlet",
+        "Bookmarks",
+        "Shortcuts Portlet",
+        "Personalize Dashboard"
+      ],
+      "correctIndex": [2]
+    },
+    {
+      "question": "Where can a user with NetSuite Account Center access go to submit a new enhancement or vote for an existing one? (Choose 1.)",
+      "options": [
+        "SuiteSolutions",
+        "SuiteSuccess",
+        "SuiteAnswers",
+        "SuiteIdeas"
+      ],
+      "correctIndex": [3]
+    },
+    {
+      "question": "When enabled, which feature allows users to track multiple Key Performance Indicators (KPIs) with different date ranges? (Choose 1.)",
+      "options": [
+        "Dashboard and Reports",
+        "Key Performance Indicators",
+        "KPI Scorecards",
+        "KPI Meters"
+      ],
+      "correctIndex": [2]
+    },
+      {
+        "question": "John's Employee record shows the following information:\n- Expense Limit: $100\n- Purchase Limit: $200\n- Expense Approval Limit: $50\n- Purchase Approval Limit: $150\n\nJohn creates a Purchase Request for an advertising expense. Which statement is true? (Choose 1.)",
+        "options": [
+          "Requests more than $200 will go through approval.",
+          "Requests more than $150 will go through approval.",
+          "Requests more than $50 will go through approval.",
+          "Requests more than $100 will go through approval."
+        ],
+        "correctIndex": [0]
+      },
+      {
+        "question": "When using the Global Search to find records, how can users display inactive records in the search results? (Choose 1.)",
+        "options": [
+          "Change the Display Type on the record.",
+          "Enable the user preference 'Include Inactives In Global & Quick Search'.",
+          "Prefix the search keyword with the correct record type (for example, 'cu' for Customer).",
+          "Re-activate the record so that it appears in the Global Search results set."
+        ],
+        "correctIndex": [1]
+      },
+      {
+        "question": "Which criteria are required for a field to be available for Mass Update? (Choose 2.)",
+        "options": [
+          "The field must be displayed on the preferred form for the record type being updated.",
+          "For standard fields, the field must have dependencies on other fields.",
+          "The field must support inline editing.",
+          "For custom fields, the field must not be stored and must have a sourcing relationship."
+        ],
+        "correctIndex": [0, 2]
+      },
+      {
+        "question": "Users can create a Customer Return Authorization from which transaction types? (Choose 2.)",
+        "options": [
+          "Custom Refunds",
+          "Item Fulfillment",
+          "Invoices",
+          "Cash Sales",
+          "Credit Memos"
+        ],
+        "correctIndex": [0, 4]
+      },
+      {
+        "question": "Which New Release portlet resource allows users to watch presentations and demonstrations on new features and enhancements in SuiteAnswers? (Choose 1.)",
+        "options": [
+          "Training Resources",
+          "Sneak Peeks",
+          "Release Notes",
+          "Release Preview Test Plan"
+        ],
+        "correctIndex": [0]
+      },
+      {
+        "question": "Which transaction is set to show the base unit of an item by default? (Choose 1.)",
+        "options": [
+          "Work Orders",
+          "Inventory Adjustments",
+          "Purchase Orders",
+          "Invoices"
+        ],
+        "correctIndex": [1]
+      },  
+        {
+          "question": "Which action can a Sales Rep perform in the Forecast Editor? (Choose 1.)",
+          "options": [
+            "Edit all transactions that make up their sales forecast.",
+            "Edit their quota to override their sales forecast.",
+            "Adjust the probability and status of opportunities in the forecast.",
+            "Inactivate transactions to exclude in the forecast report."
+          ],
+          "correctIndex": [2]
+        },
+        {
+          "question": "Which statement is false when setting up answers to login security questions? (Choose 1.)",
+          "options": [
+            "Answers are masked (hidden) by default.",
+            "Answers are case-sensitive.",
+            "You cannot use an email address or password as an answer.",
+            "Each answer must be at least three characters long.",
+            "Each answer must be unique."
+          ],
+          "correctIndex": [1]
+        },
+        {
+          "question": "When creating a new Employee record, the user is unable to change the value in the Job Title field. What could be the cause? (Choose 1.)",
+          "options": [
+            "The field is set to inactive.",
+            "Store value is unchecked.",
+            "Field Sourcing is not set.",
+            "Field Display Type is set to Inline on the custom form."
+          ],
+          "correctIndex": [3]
+        },
+        {
+          "question": "Which statement is true regarding the Quick Search portlet and Global Search? (Choose 1.)",
+          "options": [
+            "Add prefixes to limit transaction types in a Global Search. There is no way to limit transaction types when searching using the Quick Search portlet.",
+            "Global Search returns best matches quickly, but not every possible match. The Quick Search portlet returns all matching results.",
+            "Global Search results can be exported into Excel. Results from the Quick Search portlet cannot be exported.",
+            "There is no preference to show inactive transactions when searching using Global Search. The Quick Search portlet has a Show Inactives preference under Home > Set Preferences."
+          ],
+          "correctIndex": [0]
+        },      
+        {
+          "question": "Given the following settings:\nCustomer Credit Limit Handling = Enforce Holds\nCustomer Credit Limit Includes Orders = True\nHow can you create Sales Orders for a Customer that has reached their Credit Limit? (Choose 1.)",
+          "options": [
+            "Select the Override Credit Limit on the Sales Order.",
+            "Select a higher Order Priority for the Customer.",
+            "Use the Standard Sales Order - Invoice form.",
+            "Use the Standard Sales Order - Cash Sale form."
+          ],
+          "correctIndex": [3]
+        },
+        {
+          "question": "When does a user's access to their Release Preview account end? (Choose 1.)",
+          "options": [
+            "One week after the Production account is upgraded to the new version.",
+            "The day after the Production account is upgraded to the new version.",
+            "When the Production account is upgraded to the new version.",
+            "One week before the Production account is upgraded to the new version."
+          ],
+          "correctIndex": [2]
+        },
+        {
+          "question": "Mr. Boseman, a Sales Manager, wants to select another team’s sales rep in the Customer record, but he sees only his own subordinates in the list. \n\nWhich option in the Custom Role page does he need to enable to select a sales rep outside his team? (Choose 1.)",
+          "options": [
+            "Allow All Records",
+            "Do Not Restrict This Role by Device ID",
+            "Allow Cross-Subsidiary Record Viewing",
+            "Do Not Restrict Employee Fields"
+          ],
+          "correctIndex": [3]
+        },
+        {
+          "question": "A user renamed the Customer entity record to Client in the Rename Records/Transactions Page. After navigating to Lists > Relationships, the user still sees 'Customer' as the name of the record instead of 'Client'. Why is this the case? (Choose 1.)",
+          "options": [
+            "The user created a custom Center tab named Client under Lists > Relationships. Name changes are applied to standard NetSuite element names, but not to customized elements.",
+            "The user renamed the Customer to Client in the English (U.S.) language, but is currently using English UK as the language under Home > Set Preferences > General > Localization > Language.",
+            "The user must have at least a Full/Edit level permission to Rename Records/Transactions in order for changes to save.",
+            "The user is logged into another role that uses the classic Center tab. Since renaming records or transactions is a user preference, the name change does not apply to that role."
+          ],
+          "correctIndex": [1]
+        },
+          {
+            "question": "Which statement is most helpful when a saved search isn’t functioning correctly? (Choose 1.)",
+            "options": [
+              "Mark the search as Public.",
+              "Add System Notes in the Results tab.",
+              "Reduce criteria.",
+              "Narrow the date range when running a Saved Search."
+            ],
+            "correctIndex": [2]
+          },
+          {
+            "question": "If a specific subtab is not selected when creating a custom field, what subtab will the field display? (Choose 1.)",
+            "options": [
+              "Main",
+              "Items",
+              "System Information",
+              "Custom"
+            ],
+            "correctIndex": [3]
+          },
+          {
+            "question": "ABC Company wants to enable the 'Advanced Revenue Management' feature. Upon navigating to Setup > Company > Enable Features > Accounting tab, the feature is nowhere to be found. What might be the reason? (Choose 1.)",
+            "options": [
+              "Advanced Revenue Management was previously enabled and then disabled again.",
+              "The Advanced Revenue Management bundle is not yet installed in the account.",
+              "The Revenue Commitments feature is not yet enabled in the account.",
+              "Advanced Revenue Management is not yet provisioned to the account."
+            ],
+            "correctIndex": [3]
+          },        
+        
+          {
+            "question": "Which options can users set up in a Role Record? (Choose 2.)",
+            "options": [
+              "Apply Department restrictions on Item records",
+              "Restrict standard and custom fields",
+              "Provide access to Custom Records",
+              "Define expense and purchase approvers",
+              "Define the default language"
+            ],
+            "correctIndex": [0, 2]
+          },
+          {
+            "question": "Which activity record type allows a user to reserve weekly conference calls with a Project team? (Choose 1.)",
+            "options": [
+              "Events",
+              "Phone Calls",
+              "Tasks",
+              "Meetings"
+            ],
+            "correctIndex": [0]
+          },
+          {
+            "question": "Which values can no longer be edited after creating a posting transaction? (Choose 2.)",
+            "options": [
+              "Location",
+              "External ID",
+              "Sub-subsidiary",
+              "Internal ID",
+              "Document Number"
+            ],
+            "correctIndex": [3, 4]
+          },
+          {
+            "question": "Editing inventory items inline is not functioning in Lists > Accounting Items. What could be causing the problem? (Choose 1.)",
+            "options": [
+              "The user needs to select an Item Type before enabling Inline Editing.",
+              "The Allow Inline Editing for Inventory Items preference is not checked.",
+              "Inline Editing is not possible with inventory items."
+            ],
+            "correctIndex": [1]
+          },
+          {
+            "question": "A transaction search in NetSuite returns between 4 to 5 rows per transaction. Why is this happening? (Choose 1.)",
+            "options": [
+              "The search is set to Public.",
+              "The main line is set to False.",
+              "The 'Show All' checkbox is selected.",
+              "Four columns were added to the Results tab."
+            ],
+            "correctIndex": [1]
+          },
+          {
+            "question": "Where can users find the delivery status of emails sent from NetSuite? (Choose 1.)",
+            "options": [
+              "Undelivered Emails Search",
+              "Bounced Email Address List",
+              "Administrative Notifications",
+              "Sent Email List"
+            ],
+            "correctIndex": [3]
+          },
+        
+          
   {
     "question": "Maya is using a custom role that has the Import CSV File permission. On the Import Options page of the CSV Import Assistant, Maya can only select Data Handling of Add. What is the reason for this?",
     "options": [
