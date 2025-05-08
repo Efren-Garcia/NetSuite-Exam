@@ -597,5 +597,371 @@
       "Transaction Numbering Audit Log"
     ],
     "correctIndex": 0
+  },
+  
+  {
+    "question": "Which portlet shows a graphical representation of Key Performance Indicator (KPI) data?",
+    "options": [
+      "Key Performance Indicators",
+      "KPI Meter",
+      "KPI Scorecard",
+      "Trend Graphs"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which statement is true about customer credit memos and inventory items?",
+    "options": [
+      "A credit memo created from a return authorization has no impact on inventory, however, a stand-alone credit memo does impact inventory.",
+      "A credit memo created from a return authorization reduces inventory quantity.",
+      "A credit memo created from a return authorization impacts inventory, while a stand-alone credit memo does not impact inventory.",
+      "A stand-alone credit memo reduces inventory quantity."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which source can automatically create Lead records?",
+    "options": [
+      "Web Site",
+      "Chat",
+      "Campaigns",
+      "Email"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which portlet displays summary data from reports or Saved Searches for selected date ranges, with options to show comparisons between date ranges and to highlight results not meeting defined thresholds?",
+    "options": [
+      "Reports Snapshot",
+      "Key Performance Indicators",
+      "Account Reconciliation Summary",
+      "SMT Links"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which statement is true about access levels for NetSuite permissions?",
+    "options": [
+      "The Create access level allows editing records.",
+      "The Edit access level does not allow deleting records.",
+      "The Partial access level allows editing but not creating records.",
+      "The View access level does not allow printing records."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which feature enables users to invoice customers for time, items, and reimbursable expenses incurred?",
+    "options": [
+      "Charge-Based Billing",
+      "Expense Billing",
+      "Bill Costs to Customers",
+      "Billing Operations"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which URL accesses the release Preview Environment?",
+    "options": [
+      "https://system.netsuite.com",
+      "https://beta.netsuite.com",
+      "https://release-preview.netsuite.com",
+      "https://system.beta.netsuite.com"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Select All checkbox under the Audience subtab defaults to checked when a Saved Search is set to Public?",
+    "options": [
+      "Roles",
+      "Employees",
+      "Partners",
+      "Subsidiaries"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which statement is true about the Multi-Location Inventory feature?",
+    "options": [
+      "Multi-Location Inventory only works for regular inventory items.",
+      "All Purchase Orders and Sales Orders should have a status of Fully Billed before enabling Multi-Location Inventory.",
+      "Quantity on Hand must have a zero value before enabling Multi-Location Inventory.",
+      "Inventory Distribution is required to move the quantity to locations after enabling Multi-Location Inventory."
+    ],
+    "correctIndex": 3
+  },
+  
+  {
+    "question": "What Subsidiary type is used to eliminate revenue and expenses at the consolidated level, removing the effect of transactions between subsidiaries?",
+    "options": [
+      "Elimination Subsidiary",
+      "Consolidation Subsidiary",
+      "Parent Subsidiary",
+      "Child Subsidiary"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which two can users rename on the Rename Records/Transactions page? (Choose two.)",
+    "options": [
+      "Account types",
+      "Units of Measure",
+      "Report types",
+      "Entities"
+    ],
+    "correctIndex": [0, 3]
+  },
+  {
+    "question": "Which feature provides information about a specific field and can be accessed while ending or viewing a record? The Internal ID of the field can also be seen here.",
+    "options": [
+      "Help Guide",
+      "Help",
+      "Field Description",
+      "Field Level Help"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "How can an Administrator access open case tickets submitted to NetSuite Support by another user?",
+    "options": [
+      "Using the Administrator role, navigate to Lists > Support > Cases.",
+      "In Suite Answers, below the Contact Support Online button, click the Open Cases link.",
+      "Access the Help Center and search for Case Tickets.",
+      "Click the NetSuite Account Center portlet link in the Support tab."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "On which custom object can an Administrator disable system notes?",
+    "options": [
+      "Field on a Custom Record",
+      "Custom Record",
+      "Custom Transaction Body Field",
+      "Custom Entity Field"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which statement is true about NetSuite sessions?",
+    "options": [
+      "Administrators can configure the Idle Session Timeout per user, on the user's Employee record.",
+      "The absolute NetSuite user interface session timeout is 180 minutes.",
+      "A warning with a 180-second countdown shows before an idle session timeout occurs.",
+      "Due to session synchronization, logging out of one tab ends the session for all other tabs in the same account."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which feature allows customers to view an online transaction history, get quotes, and make payments within NetSuite?",
+    "options": [
+      "Web Site",
+      "Payment Center",
+      "Customer Hub",
+      "Customer Access"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which statements describe the behavior for assigning territories to cases? (Choose two.)",
+    "options": [
+      "Setting the Default Round-Robin territory to Inactive marks unmatched cases as Unassigned.",
+      "The Default Round-Robin territory always has last priority.",
+      "Re-assigning existing cases to case territories is not allowed.",
+      "NetSuite assigns cases to the best match after reviewing all case territories."
+    ],
+    "correctIndex": [0, 3]
+  },
+  {
+    "question": "How can a standard field be moved to a different subtab on a custom form?",
+    "options": [
+      "Go to Customization > Forms > Subtabs, then drag and drop the subtabs.",
+      "Edit the field setup and then change the value of the Subtab field under the Display subtab.",
+      "Edit the record and then drag and drop the standard field to the desired subtab.",
+      "Customize a form and click Move Elements Between Subtabs."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "When using the Global Search to find records, how can users display inactive records in the search results?",
+    "options": [
+      "Re-activate the record so that it appears in the Global Search results set.",
+      "Change the Display Type on the record.",
+      "Prefix the search keyword with the correct record type (for example, 'cu' for Customer).",
+      "Enable the user preference Include Inactives In Global & Quick Search."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which transaction will have a GL impact on Accounts Payable?",
+    "options": [
+      "Pending Bill Purchase Order",
+      "Cancelled Bill",
+      "Open Bill with Payment Hold",
+      "Fully Billed Purchase Order"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which feature enables users to create custom classifications in NetSuite?",
+    "options": [
+      "Custom Divisions",
+      "Custom Sections",
+      "Custom Classifications",
+      "Custom Segments"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which preference allows users to see the Field ID in the Field Level Help?",
+    "options": [
+      "Show App ID Field",
+      "Show Internal IDs",
+      "Show Field IDs",
+      "Show ID Fields on Sublists"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which statement is true about Custom Roles?",
+    "options": [
+      "It is not possible to change the Center Type of created Custom Roles.",
+      "Grant employees access from the Users subtab of a Custom Role record.",
+      "Custom Roles can be created through CSV Import.",
+      "It is not possible to make copies of a Custom Role."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "When creating Item records, which item type does not require setting up an Income Account?",
+    "options": [
+      "Assembly/Bill of Materials",
+      "Item Group",
+      "Kit/Package",
+      "Kit/Package Items"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which statement is true about dashboards?",
+    "options": [
+      "Use drag and drop to move portlets between NetSuite dashboards.",
+      "Portlet controls on dashboards are hidden, unless in full-screen view.",
+      "Only Administrators can arrange portlets on users' dashboards.",
+      "NetSuite Home page content depends on user roles."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which statement is true about Two-Factor Authentication?",
+    "options": [
+      "The user must enter a verification code that is sent to their email address every time they log in.",
+      "The duration of the trusted device can only be set to Per Session.",
+      "Two-Factor Authentication is required for highly privileged NetSuite roles (e.g., Sales Administrator).",
+      "Users need separate Two-Factor Authentication setups for each account."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Using a standard approval process for a Purchase Request, where do you set the Purchase Approver?",
+    "options": [
+      "Vendor Record",
+      "Purchase Request",
+      "Employee Record",
+      "Accounting Preferences"
+    ],
+    "correctIndex": 2
+  },
+  
+  {
+    "question": "When creating a new Employee record, a user is unable to change the value in the Job Title field. What could be the cause?",
+    "options": [
+      "Field Sourcing is not set.",
+      "Store Value is unchecked.",
+      "The field is set to Inactive.",
+      "Field Display Type is set to Inline on the custom form."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "An AP Clerk needs to pay multiple vendors but encounters an unexpected error after navigating to the Pay Bills page. The alternate solution is to use the Pay Single Vendor page, but this requires a great deal of time to pay the company's vendors. What is the appropriate NetSuite Case Severity Level the user should select when submitting a Support Case?",
+    "options": [
+      "C1 — Critical I Business Down",
+      "C2 – Urgent",
+      "C4 — Enhancement I Non Tech Support",
+      "C3 - How To I questions"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which statement is true when using popup and dropdown lists in NetSuite?",
+    "options": [
+      "Enter # in the Maximum Entries in Dropdowns field to always use popup lists.",
+      "To quickly enter a single value in a MultiSelect Popup List, type the first few letters of the value and press Tab.",
+      "Enter the record prefix followed by the first letters of a value to automatically populate a dropdown list.",
+      "When the Popup Auto Suggest preference is enabled, NetSuite suggests matching records after typing five (5) or more characters."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which transaction reduces the quantity on hand of an inventory item?",
+    "options": [
+      "Vendor Return Authorization",
+      "Sales Order",
+      "Stand-alone Vendor Bill",
+      "Stand-alone Invoice"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which statement is true about customer credit memos and inventory items?",
+    "options": [
+      "A credit memo created from a return authorization has no impact on inventory, however, a stand-alone credit memo does impact inventory.",
+      "A credit memo created from a return authorization reduces inventory quantity.",
+      "A credit memo created from a return authorization impacts inventory, while a stand-alone credit memo does not impact inventory.",
+      "A stand-alone credit memo reduces inventory quantity."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which statement is true about using Quick Accept in Event records?",
+    "options": [
+      "Quick Accept can be performed through the Calendar portlet.",
+      "Enable the Quick Accept preference under Setup > Activities > Calendar Preferences.",
+      "The Event record should be in Edit mode to perform Quick Accept.",
+      "The Quick Accept button provides users an option to mark events as Tentative or Accepted."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "An Administrator renamed the Customer record type to Client and you would like to search for a customer named Acme Inc. Which keywords would you enter in a Global Search? (Choose two.)",
+    "options": [
+      "“Acme%”",
+      "cl: Acme Inc",
+      "Acme Inc",
+      "cu: Acme Inc"
+    ],
+    "correctIndex": [1, 2]
+  },
+  {
+    "question": "What Subscription Status should the Administrator select so that customers receive email campaigns?",
+    "options": [
+      "Hard Opt-in",
+      "Soft Opt-in",
+      "Hard Subscribe",
+      "Subscribe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Maya is using a custom role that has the Import CSV File permission. On the Import Options page of the CSV Import Assistant, Maya can only select Data Handling of Add. What is the reason for this?",
+    "options": [
+      "The custom role has the Edit level permission for the record type she is importing.",
+      "The custom role’s permission level for Import CSV File is not set to Full.",
+      "The custom role has the Create permission level for the record type she is importing.",
+      "The custom role’s permission level for Import CSV File is set to Create."
+    ],
+    "correctIndex": 2
   }
 ]
+
+
+
