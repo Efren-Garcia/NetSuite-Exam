@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #eaf4f7;
+  background-color: #eaf4f7; /* Azul claro */
   padding: 20px;
   margin: 0;
-  color: #1f4d5f;
+  color: #1f4d5f; /* Azul oscuro */
 }
 
 .quiz-container {
@@ -36,8 +36,38 @@ h2 {
 }
 
 .option input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #1f4d5f;
+  border-radius: 4px;
   margin-top: 4px;
   flex-shrink: 0;
+  cursor: pointer;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.option input[type="checkbox"]:checked {
+  background-color: #1f4d5f;
+}
+
+.option input[type="checkbox"]::after {
+  content: '';
+  position: absolute;
+  top: 0.5px;
+  left: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  opacity: 0;
+  transform: rotate(45deg);
+}
+
+.option input[type="checkbox"]:checked::after {
+  opacity: 1;
 }
 
 .option span {
@@ -59,14 +89,14 @@ button {
   font-size: 1rem;
   border: none;
   border-radius: 6px;
-  background-color: #d8b15c;
+  background-color: #d8b15c; /* Oro mostaza */
   color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover:enabled {
-  background-color: #1f4d5f;
+  background-color: #1f4d5f; /* Azul oscuro al pasar el mouse */
 }
 
 button:disabled {
