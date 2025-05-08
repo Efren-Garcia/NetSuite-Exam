@@ -880,7 +880,7 @@
       "The field is set to Inactive.",
       "Field Display Type is set to Inline on the custom form."
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "question": "An AP Clerk needs to pay multiple vendors but encounters an unexpected error after navigating to the Pay Bills page. The alternate solution is to use the Pay Single Vendor page, but this requires a great deal of time to pay the company's vendors. What is the appropriate NetSuite Case Severity Level the user should select when submitting a Support Case?",
