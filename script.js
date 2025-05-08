@@ -7,16 +7,32 @@ let totalQuestions = 0;
 document.addEventListener('DOMContentLoaded', async () => {
   const res = await fetch('questions.json');
   questions = await res.json();
-  shuffleArray(questions); // Mezclar preguntas antes de empezar
-  totalQuestions = questions.length; // Guardar el total de preguntas
+  shuffleArray(questions); 
+  questions.forEach(shuffleQuestionOptions);
+  totalQuestions = questions.length; 
   loadQuestion();
 });
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]]; // Intercambiar elementos
+    [array[i], array[j]] = [array[j], array[i]]; 
   }
+}
+
+function shuffleQuestionOptions(question) {
+  const options = question.options.map((option, index) => ({
+    text: option,
+    originalIndex: index
+  }));
+
+  shuffleArray(options); // Mezclar opciones
+
+  // Actualizar opciones y correctIndex
+  question.options = options.map(option => option.text);
+  question.correctIndex = Array.isArray(question.correctIndex)
+    ? question.correctIndex.map(idx => options.findIndex(opt => opt.originalIndex === idx))
+    : options.findIndex(opt => opt.originalIndex === question.correctIndex);
 }
 
 function loadQuestion() {
@@ -39,7 +55,7 @@ function loadQuestion() {
     input.type = 'checkbox';
     input.name = 'option';
     input.value = index;
-    input.onclick = () => limitSelection(maxSelections); // Limitar selección
+    input.onclick = () => limitSelection(maxSelections); 
     label.appendChild(input);
     const textSpan = document.createElement('span');
     textSpan.textContent = option;
@@ -52,7 +68,7 @@ function limitSelection(maxSelections) {
   const selected = document.querySelectorAll('input[name="option"]:checked');
   
   if (selected.length > maxSelections) {
-    selected[selected.length - 1].checked = false; // Desmarca la última opción seleccionada
+    selected[selected.length - 1].checked = false; 
   }
 
   document.getElementById('submitBtn').disabled = selected.length === 0;

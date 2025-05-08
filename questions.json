@@ -9,6 +9,7 @@
       ],
       "correctIndex": 2
     },
+    
     {
       "question": "Where can users find settings to optimize NetSuite performance?",
       "options": [
@@ -98,502 +99,502 @@
     {
     "question": "Which record types support the Multiple Currency feature? (Choose 2.)",
     "options": [
-      "A. Vendor",
-      "B. Employees",
-      "C. Customer",
-      "D. Partners",
-      "E. Competitors"
+      "Vendor",
+      "Employees",
+      "Customer",
+      "Partners",
+      "Competitors"
     ],
     "correctIndex": [0, 2]
   },
   {
     "question": "Which feature allows users to manage inventory in various locations?",
     "options": [
-      "A. Locations",
-      "B. Inventory",
-      "C. Multi-Location Inventory",
-      "D. Advanced Inventory Management"
+      "Locations",
+      "Inventory",
+      "Multi-Location Inventory",
+      "Advanced Inventory Management"
     ],
     "correctIndex": 2
   },
   {
     "question": "Which statement is correct about renaming records/transactions?",
     "options": [
-      "A. The navigational path to the record updates with the renaming.",
-      "B. Abbreviations for Transaction Names can only contain up to 10 alphanumeric and/or special characters.",
-      "C. Abbreviations for Account Type Names can be used to access the account when recording journal entries.",
-      "D. The renaming process applies to each language used within the system."
+      "The navigational path to the record updates with the renaming.",
+      "Abbreviations for Transaction Names can only contain up to 10 alphanumeric and/or special characters.",
+      "Abbreviations for Account Type Names can be used to access the account when recording journal entries.",
+      "The renaming process applies to each language used within the system."
     ],
     "correctIndex": 0
   },
   {
     "question": "Which steps are needed to disable the Multi-Subsidiary Customer feature? (Choose 2.)",
     "options": [
-      "A. Reverse or delete all transactions related to customers and their secondary subsidiaries.",
-      "B. Inactivate Customer records with multiple transactions on different subsidiaries.",
-      "C. Remove all secondary subsidiaries from Customer records.",
-      "D. Set only one primary subsidiary and one secondary subsidiary in the Customer record."
+      "Reverse or delete all transactions related to customers and their secondary subsidiaries.",
+      "Inactivate Customer records with multiple transactions on different subsidiaries.",
+      "Remove all secondary subsidiaries from Customer records.",
+      "Set only one primary subsidiary and one secondary subsidiary in the Customer record."
     ],
     "correctIndex": [0, 2]
   },
   {
     "question": "Which is considered the primary classification used to organize records in a NetSuite OneWorld account?",
     "options": [
-      "A. Departments",
-      "B. Classes",
-      "C. Subsidiaries",
-      "D. Locations"
+      "Departments",
+      "Classes",
+      "Subsidiaries",
+      "Locations"
     ],
     "correctIndex": 2
   },
   {
     "question": "Which field type can be used to track Employee birthdays?",
     "options": [
-      "A. Date",
-      "B. Date/Time",
-      "C. Time of Day",
-      "D. Record is Parent"
+      "Date",
+      "Date/Time",
+      "Time of Day",
+      "Record is Parent"
     ],
     "correctIndex": 0
   },
   {
     "question": "Which statement is true about custom forms?",
     "options": [
-      "A. Even if a custom form is stored with a record, a user cannot access the form if it is not enabled for their role.",
-      "B. If you set preferred forms without restricting them, employees can still change the form when entering records.",
-      "C. The Store Form with Record option is available for all custom entry and custom transaction forms.",
-      "D. Define preferred forms from Home > Set Preferences."
+      "Even if a custom form is stored with a record, a user cannot access the form if it is not enabled for their role.",
+      "If you set preferred forms without restricting them, employees can still change the form when entering records.",
+      "The Store Form with Record option is available for all custom entry and custom transaction forms.",
+      "Define preferred forms from Home > Set Preferences."
     ],
     "correctIndex": 1
   },
   {
     "question": "Which statement is correct regarding Custom Transactions?",
     "options": [
-      "A. Custom Transaction Types can have auto-generated document numbers.",
-      "B. Custom Transaction Types cannot be imported via CSV.",
-      "C. Users can only create one custom form for each transaction type.",
-      "D. Custom Transaction Types cannot include Custom Transaction body fields."
+      "Custom Transaction Types can have auto-generated document numbers.",
+      "Custom Transaction Types cannot be imported via CSV.",
+      "Users can only create one custom form for each transaction type.",
+      "Custom Transaction Types cannot include Custom Transaction body fields."
     ],
     "correctIndex": 0
   },
   {
     "question": "What customization feature allows users with no scripting knowledge to modify standard NetSuite processes?",
     "options": [
-      "A. SuiteBuilder",
-      "B. SuiteFlow",
-      "C. SuiteBundler",
-      "D. SuiteTalk"
+      "SuiteBuilder",
+      "SuiteFlow",
+      "SuiteBundler",
+      "SuiteTalk"
     ],
     "correctIndex": 1
   },
   {
     "question": "Where can users set a Default Role upon logging into NetSuite?",
     "options": [
-      "A. On the Employee record > Access tab, mark the Default checkbox next to the assigned role.",
-      "B. On the Choose Role page, mark the Default checkbox next to the assigned role.",
-      "C. On the Home page, click the star icon below the Oracle NetSuite logo.",
-      "D. On the Role record > Users tab, mark the Default checkbox next to the assigned user."
+      "On the Employee record > Access tab, mark the Default checkbox next to the assigned role.",
+      "On the Choose Role page, mark the Default checkbox next to the assigned role.",
+      "On the Home page, click the star icon below the Oracle NetSuite logo.",
+      "On the Role record > Users tab, mark the Default checkbox next to the assigned user."
     ],
     "correctIndex": 1
   },
   {
     "question": "Where do users access NetSuite Performance Details?",
     "options": [
-      "A. Double-click the company logo.",
-      "B. Double-click the Oracle NetSuite logo.",
-      "C. Double-click the User Role dropdown menu.",
-      "D. Set up the Key Performance Indicators portlet."
+      "Double-click the company logo.",
+      "Double-click the Oracle NetSuite logo.",
+      "Double-click the User Role dropdown menu.",
+      "Set up the Key Performance Indicators portlet."
     ],
     "correctIndex": 1
   },
   {
     "question": "While editing a cash sale, a user must refresh the record to see the latest email received from the customer. What must the user also do to see the email without losing unsaved data on the cash sale?",
     "options": [
-      "A. Go to the Communication subtab and click Refresh on the Messages sublist.",
-      "B. Right-click the Refresh icon on the browser and click Soft Refresh.",
-      "C. Refresh the whole page.",
-      "D. Click the Receive Email Crosslink."
+      "Go to the Communication subtab and click Refresh on the Messages sublist.",
+      "Right-click the Refresh icon on the browser and click Soft Refresh.",
+      "Refresh the whole page.",
+      "Click the Receive Email Crosslink."
     ],
     "correctIndex": 0
   },
   {
     "question": "Where in NetSuite can a user find the Show Internal IDs preference?",
     "options": [
-      "A. Setup tab > Enable Features",
-      "B. Home > General Preferences",
-      "C. Home > Set Preferences",
-      "D. Setup tab > Accounting Preferences"
+      "Setup tab > Enable Features",
+      "Home > General Preferences",
+      "Home > Set Preferences",
+      "Setup tab > Accounting Preferences"
     ],
     "correctIndex": 2
   },
   {
     "question": "Which restrictions can apply to records on the Home > Set Preferences > Restrict View tab? (Choose 2.)",
     "options": [
-      "A. Period",
-      "B. Segment",
-      "C. Location",
-      "D. Department"
+      "Period",
+      "Segment",
+      "Location",
+      "Department"
     ],
     "correctIndex": [2, 3]
   },
   {
     "question": "A user created a List of Items Sold Today report using a saved search. Which portlet allows the user to add this report to the Home dashboard?",
     "options": [
-      "A. Custom Search",
-      "B. Report Snapshots",
-      "C. Quick Search",
-      "D. Custom List"
+      "Custom Search",
+      "Report Snapshots",
+      "Quick Search",
+      "Custom List"
     ],
     "correctIndex": 0
   },
   {
     "question": "Which Documents > Mail Merge > Bulk Merge option is available for users to create bulk communications?",
     "options": [
-      "A. Event",
-      "B. Fax",
-      "C. csv",
-      "D. Cases"
+      "Event",
+      "Fax",
+      "csv",
+      "Cases"
     ],
     "correctIndex": 1
   },
   {
     "question": "Which statement is true about restricting files in the File Cabinet?",
     "options": [
-      "A. To make files available to company users only, select the Company-Wide Usage box on the file record.",
-      "B. NetSuite allows users to restrict individual files.",
-      "C. The Available Without Login preference is selected by default.",
-      "D. If a parent folder's restriction changes after a subfolder is created, the subfolder inherits the new restriction."
+      "To make files available to company users only, select the Company-Wide Usage box on the file record.",
+      "NetSuite allows users to restrict individual files.",
+      "The Available Without Login preference is selected by default.",
+      "If a parent folder's restriction changes after a subfolder is created, the subfolder inherits the new restriction."
     ],
     "correctIndex": 0
   },
   {
     "question": "Where should a user go to set a default expiration (in days) for Estimate records?",
     "options": [
-      "A. Sales Preferences",
-      "B. The Estimate record",
-      "C. The Customer record",
-      "D. Accounting Preferences"
+      "Sales Preferences",
+      "The Estimate record",
+      "The Customer record",
+      "Accounting Preferences"
     ],
     "correctIndex": 0
   },
   {
     "question": "Which statements are true when converting Leads? (Choose 2.)",
     "options": [
-      "A. A Lead record can be converted to the Customer stage without creating a sales order transaction.",
-      "B. Leads converted to Customers can never be converted back to Leads.",
-      "C. When an Opportunity is created, the Lead record follows the status of the Opportunity record.",
-      "D. Leads can be converted to the Customer stage through a Relationships type CSV import."
+      "A Lead record can be converted to the Customer stage without creating a sales order transaction.",
+      "Leads converted to Customers can never be converted back to Leads.",
+      "When an Opportunity is created, the Lead record follows the status of the Opportunity record.",
+      "Leads can be converted to the Customer stage through a Relationships type CSV import."
     ],
     "correctIndex": [0, 2]
   },
   {
     "question": "What is the customer status after creating an Estimate for a Lead record?",
     "options": [
-      "A. Lead",
-      "B. Prospect",
-      "C. Customer",
-      "D. Contact"
+      "Lead",
+      "Prospect",
+      "Customer",
+      "Contact"
     ],
     "correctIndex": 1
   }, {
     "question": "Which can be set by users under Setup > Sales > Sales Preferences > Forecasts? (Choose 2.)",
     "options": [
-      "A. Calculate Forecasts as Weighted",
-      "B. Advanced Forecasting",
-      "C. Use Opportunities in Forecast",
-      "D. Allow Setting Probability in Forecast Editor",
-      "E. Allow Override of Quotas in Forecast Editor"
+      "Calculate Forecasts as Weighted",
+      "Advanced Forecasting",
+      "Use Opportunities in Forecast",
+      "Allow Setting Probability in Forecast Editor",
+      "Allow Override of Quotas in Forecast Editor"
     ],
     "correctIndex": [0, 3]
   },
   {
     "question": "Where can users set subsidiary-level support preferences?",
     "options": [
-      "A. Case Profile",
-      "B. Setup > Company > General Preferences",
-      "C. Setup > Support > Support Preferences",
-      "D. Subsidiary record"
+      "Case Profile",
+      "Setup > Company > General Preferences",
+      "Setup > Support > Support Preferences",
+      "Subsidiary record"
     ],
     "correctIndex": 3
   },
   {
     "question": "Which role or roles can edit locked cases?",
     "options": [
-      "A. Administrator only",
-      "B. Administrator and Support Administrator",
-      "C. Administrator, Support Administrator, and Support Manager",
-      "D. Administrator and roles with Full access on Cases"
+      "Administrator only",
+      "Administrator and Support Administrator",
+      "Administrator, Support Administrator, and Support Manager",
+      "Administrator and roles with Full access on Cases"
     ],
     "correctIndex": 0
   },
   {
     "question": "What is the purpose of selecting Unsubscribed to Marketing by Default, under Marketing Preferences?",
     "options": [
-      "A. To enable the Global Subscription Status field on the Customer record.",
-      "B. To set the Global Subscription Status to Soft Opt-out once a new Customer record is created.",
-      "C. Existing customers are updated from Soft Opt-in to Unsubscribed.",
-      "D. To enable the Campaign Subscription Center link under Home > Dashboard >Settings portlet."
+      "To enable the Global Subscription Status field on the Customer record.",
+      "To set the Global Subscription Status to Soft Opt-out once a new Customer record is created.",
+      "Existing customers are updated from Soft Opt-in to Unsubscribed.",
+      "To enable the Campaign Subscription Center link under Home > Dashboard >Settings portlet."
     ],
     "correctIndex": 1
   },
   {
     "question": "Using the Standard Sales Order Form, what transaction is created when billing a Sales Order that has a Payment Method selected?",
     "options": [
-      "A. Progress Invoice",
-      "B. Cash Sale",
-      "C. Customer Payment",
-      "D. Invoice"
+      "Progress Invoice",
+      "Cash Sale",
+      "Customer Payment",
+      "Invoice"
     ],
     "correctIndex": 1
   },
   {
     "question": "Which preference allows users to enter a quantity higher than the quantity committed for an item on an Item Fulfillment form?",
     "options": [
-      "A. Allow Overage on Item Fulfillments",
-      "B. Invoice in Advance of Fulfillment",
-      "C. Show Unfulfilled Items on Invoices",
-      "D. Allow Overage on Item Commitments"
+      "Allow Overage on Item Fulfillments",
+      "Invoice in Advance of Fulfillment",
+      "Show Unfulfilled Items on Invoices",
+      "Allow Overage on Item Commitments"
     ],
     "correctIndex": 0
   },
   {
     "question": "Which of these Customer Payment Methods are supported in NetSuite?",
     "options": [
-      "A. ACH Processing with Coastal Software",
-      "B. Electronic Funds Transfer",
-      "C. PayPal Express for Web Stores",
-      "D. Credit Card Processing for Sales Orders"
+      "ACH Processing with Coastal Software",
+      "Electronic Funds Transfer",
+      "PayPal Express for Web Stores",
+      "Credit Card Processing for Sales Orders"
     ],
     "correctIndex": 0
   },
   {
     "question": "Which transaction is created when clicking Refund in a Return Materials Authorization (RMA) record?",
     "options": [
-      "A. Bill Credit",
-      "B. Inventory Adjustment",
-      "C. Customer Refund",
-      "D. Cash Refund"
+      "Bill Credit",
+      "Inventory Adjustment",
+      "Customer Refund",
+      "Cash Refund"
     ],
     "correctIndex": 3
   },
   {
     "question": "Which statement is true about Customer Return Authorization records?",
     "options": [
-      "A. If created with a Credit Form, the record generates a Customer Deposit.",
-      "B. If created with a Credit Form, the record generates a Credit Memo.",
-      "C. If created with a Cash Form, the record generates a Credit Memo.",
-      "D. If created with a Cash Form, the record generates a Cash Sale."
+      "If created with a Credit Form, the record generates a Customer Deposit.",
+      "If created with a Credit Form, the record generates a Credit Memo.",
+      "If created with a Cash Form, the record generates a Credit Memo.",
+      "If created with a Cash Form, the record generates a Cash Sale."
     ],
     "correctIndex": 1
   },
   {
     "question": "Which item types may be used to cluster Item records and group them into one unit? (Choose 2.)",
     "options": [
-      "A. Service Items",
-      "B. Assembly Items",
-      "C. Kit/Package Items",
-      "D. Lot-Numbered Items",
-      "E. Non-inventory For Resale"
+      "Service Items",
+      "Assembly Items",
+      "Kit/Package Items",
+      "Lot-Numbered Items",
+      "Non-inventory For Resale"
     ],
     "correctIndex": [1, 2]
   },
   {
     "question": "Which setting changes the quantity and value of an inventory item without entering a purchase order?",
     "options": [
-      "A. Order Items",
-      "B. Adjust Inventory",
-      "C. Reallocate Items",
-      "D. Review Negative Inventory"
+      "Order Items",
+      "Adjust Inventory",
+      "Reallocate Items",
+      "Review Negative Inventory"
     ],
     "correctIndex": 1
   },
   {
     "question": "Which feature enables users to define various units used to stock, purchase, and sell inventory items and to track non-monetary accounts?",
     "options": [
-      "A. Statistical Accounts",
-      "B. Multiple Units of Measure",
-      "C. Lot Tracking",
-      "D. Bar Coding and Item Labels"
+      "Statistical Accounts",
+      "Multiple Units of Measure",
+      "Lot Tracking",
+      "Bar Coding and Item Labels"
     ],
     "correctIndex": 1
   },
   {
     "question": "Which statement is true regarding Price Levels?",
     "options": [
-      "A. When the Multiple Prices feature is enabled, users can create up to 1,000 Price Levels.",
-      "B. Users can only enter a discount percentage on Price Levels.",
-      "C. Users are not allowed to inactivate a Price Level when it has a discount/mark-up percentage.",
-      "D. Price Levels cannot have the same discount/mark-up percentage."
+      "When the Multiple Prices feature is enabled, users can create up to 1,000 Price Levels.",
+      "Users can only enter a discount percentage on Price Levels.",
+      "Users are not allowed to inactivate a Price Level when it has a discount/mark-up percentage.",
+      "Price Levels cannot have the same discount/mark-up percentage."
     ],
     "correctIndex": 0
   },
   {
     "question": "Which accounting preference allows invoices to include memos on Time records when the Bill Costs for Customers feature is enabled?",
     "options": [
-      "A. Copy Source Memos to Invoices",
-      "B. Copy Time Memos to Invoices",
-      "C. Copy All Memos to Invoices",
-      "D. Copy Expense Memos to Invoices"
+      "Copy Source Memos to Invoices",
+      "Copy Time Memos to Invoices",
+      "Copy All Memos to Invoices",
+      "Copy Expense Memos to Invoices"
     ],
     "correctIndex": 1
   },
   {
     "question": "Which statement is true regarding the Standard Purchase Order Approval Routing process?",
     "options": [
-      "A. A Purchase Request is automatically routed to the Supervisor if the Purchase Approver is unable to approve the transaction within 24 hours.",
-      "B. If the Purchase Limit of the employee is set to zero, then all Purchase Requests are automatically approved, even if a Purchase Approver is set.",
-      "C. A rejected Purchase Request can still be edited and resubmitted for approval.",
-      "D. A Purchase Request can no longer be edited once it has been approved."
+      "A Purchase Request is automatically routed to the Supervisor if the Purchase Approver is unable to approve the transaction within 24 hours.",
+      "If the Purchase Limit of the employee is set to zero, then all Purchase Requests are automatically approved, even if a Purchase Approver is set.",
+      "A rejected Purchase Request can still be edited and resubmitted for approval.",
+      "A Purchase Request can no longer be edited once it has been approved."
     ],
     "correctIndex": 2
   },
   {
     "question": "At which status does a Vendor Bill affect Accounts Payable?",
     "options": [
-      "A. Pending Approval",
-      "B. Open",
-      "C. Partially Billed",
-      "D. Unpaid"
+      "Pending Approval",
+      "Open",
+      "Partially Billed",
+      "Unpaid"
     ],
     "correctIndex": 1
   },
   {
     "question": "Which value can users enter in Global Search to include inactive records?",
     "options": [
-      "A. cu:-abc",
-      "B. cu:abc-",
-      "C. cu:+abc",
-      "D. cu:abc+"
+      "cu:-abc",
+      "cu:abc-",
+      "cu:+abc",
+      "cu:abc+"
     ],
     "correctIndex": 3
   },
   {
     "question": "When added to the Criteria subtab of a Transaction search, which filter displays primary line data rows only?",
     "options": [
-      "A. Main Line = yes",
-      "B. Item on Any Line = specify item",
-      "C. Name = name of the item",
-      "D. Main Line = any"
+      "Main Line = yes",
+      "Item on Any Line = specify item",
+      "Name = name of the item",
+      "Main Line = any"
     ],
     "correctIndex": 0
   },
   {
     "question": "Which statement is true about portlets?",
     "options": [
-      "A. Portlet controls are shown by default but can be hidden by the user.",
-      "B. Portlets with content that is calculated from current data includes an Export function.",
-      "C. All portlets can be expanded to full-screen view.",
-      "D. A pop-up may display, suggesting that portlets can be minimized to speed up dashboard loading time."
+      "Portlet controls are shown by default but can be hidden by the user.",
+      "Portlets with content that is calculated from current data includes an Export function.",
+      "All portlets can be expanded to full-screen view.",
+      "A pop-up may display, suggesting that portlets can be minimized to speed up dashboard loading time."
     ],
     "correctIndex": 3
   },
   {
     "question": "Which statement is true about Mass Updates?",
     "options": [
-      "A. A Mass Update definition must be saved before users can click Perform Update.",
-      "B. The first step to perform a Mass Update is to define new values that will be reflected on records.",
-      "C. On the Mass Update Preview Results page, users can exclude individual records.",
-      "D. Saved Mass Updates can be found on the list of Saved Searches."
+      "A Mass Update definition must be saved before users can click Perform Update.",
+      "The first step to perform a Mass Update is to define new values that will be reflected on records.",
+      "On the Mass Update Preview Results page, users can exclude individual records.",
+      "Saved Mass Updates can be found on the list of Saved Searches."
     ],
     "correctIndex": 2
   },
   {
     "question": "Which resources under the Support tab can a user access to submit a case?",
     "options": [
-      "A. NetSuite Administrator Group",
-      "B. NetSuite Account Center",
-      "C. NetSuite Support Aid",
-      "D. NetSuite Assistant"
+      "NetSuite Administrator Group",
+      "NetSuite Account Center",
+      "NetSuite Support Aid",
+      "NetSuite Assistant"
     ],
     "correctIndex": 1
   },
   {
     "question": "Which is a channel for contacting NetSuite CustomerSupport?",
     "options": [
-      "A. Submit a Support Ticket using the Employee Center role.",
-      "B. Start a Live Chat conversation at the NetSuite Visitor home page.",
-      "C. Email a NetSuite Customer Support representative directly.",
-      "D. Submit an Online Case via SuiteAnswers."
+      "Submit a Support Ticket using the Employee Center role.",
+      "Start a Live Chat conversation at the NetSuite Visitor home page.",
+      "Email a NetSuite Customer Support representative directly.",
+      "Submit an Online Case via SuiteAnswers."
     ],
     "correctIndex": 0
   },
   {
     "question": "What can users find in SuiteAnswers, the NetSuite self-service support site?",
     "options": [
-      "A. New Release Notes",
-      "B. User Account Provisioning details",
-      "C. End user license agreement",
-      "D. The user account's File Cabinet usage"
+      "New Release Notes",
+      "User Account Provisioning details",
+      "End user license agreement",
+      "The user account's File Cabinet usage"
     ],
     "correctIndex": 0
   },
   {
     "question": "Which functionality is disabled in the Release Preview account?",
     "options": [
-      "A. Payroll",
-      "B. Email Campaigns",
-      "C. Two-Factor Authentication",
-      "D. Memorized Transactions"
+      "Payroll",
+      "Email Campaigns",
+      "Two-Factor Authentication",
+      "Memorized Transactions"
     ],
     "correctIndex": 0
   },
   {
     "question": "Don and Mark both have the Consultant role. The role has the Create permission for Opportunities. Under the Global Permissions subtab of his Employee record, Don is provisioned Edit permission for Opportunities. Which statement is true?",
     "options": [
-      "A. They can both edit Opportunity records.",
-      "B. Mark can create Opportunity records while Don can edit and create Opportunity records.",
-      "C. Don can create Opportunity records while Mark can edit and create Opportunity records.",
-      "D. Neither Don nor Mark can edit Opportunity records."
+      "They can both edit Opportunity records.",
+      "Mark can create Opportunity records while Don can edit and create Opportunity records.",
+      "Don can create Opportunity records while Mark can edit and create Opportunity records.",
+      "Neither Don nor Mark can edit Opportunity records."
     ],
     "correctIndex": 1
   },
   {
     "question": "Which attribute cannot be modified when editing a custom role?",
     "options": [
-      "A. Inactive",
-      "B. Center Type",
-      "C. Employee Restrictions",
-      "D. Two-Factor Authentication"
+      "Inactive",
+      "Center Type",
+      "Employee Restrictions",
+      "Two-Factor Authentication"
     ],
     "correctIndex": 1
   },
   {
     "question": "Which standard NetSuite role is set up with mandatory Two-Factor Authentication?",
     "options": [
-      "A. CEO",
-      "B. Administrator",
-      "C. Issue Administrator",
-      "D. CFO"
+      "CEO",
+      "Administrator",
+      "Issue Administrator",
+      "CFO"
     ],
     "correctIndex": 1
   },
   {
     "question": "When is a user asked to answer a security question before they can log in to NetSuite?",
     "options": [
-      "A. When the user provides an incorrect password upon initial login.",
-      "B. If the user logs in using a role with two-factor authentication enabled.",
-      "C. When a user proactively changes their password.",
-      "D. If the user attempts to log in using a new computer."
+      "When the user provides an incorrect password upon initial login.",
+      "If the user logs in using a role with two-factor authentication enabled.",
+      "When a user proactively changes their password.",
+      "If the user attempts to log in using a new computer."
     ],
     "correctIndex": 3
   },
   {
     "question": "What settings can users change by clicking Set Preferences from the Settings portlet?",
     "options": [
-      "A. Enable Features",
-      "B. Company Preferences",
-      "C. Accounting Preferences",
-      "D. User Preferences"
+      "Enable Features",
+      "Company Preferences",
+      "Accounting Preferences",
+      "User Preferences"
     ],
     "correctIndex": 3
   },
   {
     "question": "Where can you find logged OLD and NEW GL Impact of some transaction?",
     "options": [
-      "A. System notes",
-      "B. My Login Audit",
-      "C. Transaction Audit Trail",
-      "D. Transaction Numbering Audit Log"
+      "System notes",
+      "My Login Audit",
+      "Transaction Audit Trail",
+      "Transaction Numbering Audit Log"
     ],
     "correctIndex": 0
   }
