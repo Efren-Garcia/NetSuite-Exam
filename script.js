@@ -2,21 +2,35 @@ let questions = [];
 let currentQuestion = 0;
 let correctCount = 0;
 let incorrectCount = 0;
+let totalQuestions = 0;
 
 document.addEventListener('DOMContentLoaded', async () => {
   const res = await fetch('questions.json');
   questions = await res.json();
+  shuffleArray(questions); // Mezclar preguntas antes de empezar
+  totalQuestions = questions.length; // Guardar el total de preguntas
   loadQuestion();
 });
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Intercambiar elementos
+  }
+}
 
 function loadQuestion() {
   const q = questions[currentQuestion];
   document.getElementById('question').innerText = q.question;
+  document.getElementById('progress').innerText = `Question ${currentQuestion + 1} of ${totalQuestions}`;
+  
   const optionsDiv = document.getElementById('options');
   optionsDiv.innerHTML = '';
 
   document.getElementById('submitBtn').disabled = true;
   document.getElementById('nextBtn').disabled = true;
+
+  const maxSelections = Array.isArray(q.correctIndex) ? q.correctIndex.length : 1; // Número máximo de selecciones
 
   q.options.forEach((option, index) => {
     const label = document.createElement('label');
@@ -25,7 +39,7 @@ function loadQuestion() {
     input.type = 'checkbox';
     input.name = 'option';
     input.value = index;
-    input.onclick = () => toggleSubmitButton();
+    input.onclick = () => limitSelection(maxSelections); // Limitar selección
     label.appendChild(input);
     const textSpan = document.createElement('span');
     textSpan.textContent = option;
@@ -34,8 +48,13 @@ function loadQuestion() {
   });
 }
 
-function toggleSubmitButton() {
+function limitSelection(maxSelections) {
   const selected = document.querySelectorAll('input[name="option"]:checked');
+  
+  if (selected.length > maxSelections) {
+    selected[selected.length - 1].checked = false; // Desmarca la última opción seleccionada
+  }
+
   document.getElementById('submitBtn').disabled = selected.length === 0;
 }
 
@@ -84,10 +103,10 @@ function nextQuestion() {
     loadQuestion();
   } else {
     document.querySelector('.quiz-container').innerHTML = `
-      <h2>Quiz completed! 🎉</h2>
+      <h2>Quiz Completed! 🎉</h2>
       <p>✅ Correct answers: ${correctCount}</p>
       <p>❌ Incorrect answers: ${incorrectCount}</p>
+      <p>📊 Questions answered: ${totalQuestions} of ${totalQuestions}</p>
     `;
   }
 }
-
