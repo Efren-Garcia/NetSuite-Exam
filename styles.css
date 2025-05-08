@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0;
+}
+
+.quiz-container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: flex-start; /* Cambiado de center a flex-start */
+  margin: 10px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  gap: 10px; /* Espacio entre checkbox y texto */
+}
+
+.option input[type="checkbox"] {
+  margin-top: 4px; /* Centra el checkbox mejor con respecto al texto */
+  flex-shrink: 0;   /* Evita que el checkbox se reduzca */
+}
+
+.option span {
+  line-height: 1.4;
+  word-break: break-word; /* En caso de textos largos sin espacios */
+}
+
+
+.correct {
+  background-color: #c8e6c9;
+}
+
+.incorrect {
+  background-color: #ffcdd2;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.scoreboard {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Responsividad para móviles */
+@media (max-width: 600px) {
+  .quiz-container {
+    padding: 20px 15px;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .option {
+    font-size: 0.95rem;
+    flex-wrap: wrap;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .scoreboard {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+}
