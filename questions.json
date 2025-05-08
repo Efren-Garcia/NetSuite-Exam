@@ -902,16 +902,7 @@
     ],
     "correctIndex": 1
   },
-  {
-    "question": "Which transaction reduces the quantity on hand of an inventory item?",
-    "options": [
-      "Vendor Return Authorization",
-      "Sales Order",
-      "Stand-alone Vendor Bill",
-      "Stand-alone Invoice"
-    ],
-    "correctIndex": 3
-  },
+  
   
   {
     "question": "Which statement is true about using Quick Accept in Event records?",
