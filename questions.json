@@ -1413,18 +1413,7 @@
       1
     ]
   },
-  {
-    "question": "Which statement is true regarding the Quick Search portlet and Global Search? (Choose 1.)",
-    "options": [
-      "Add prefixes to limit transaction types in a Global Search. There is no way to limit transaction types when searching using the Quick Search portlet.",
-      "Global Search returns best matches quickly, but not every possible match. The Quick Search portlet returns all matching results.",
-      "Global Search results can be exported into Excel. Results from the Quick Search portlet cannot be exported.",
-      "There is no preference to show inactive transactions when searching using Global Search. The Quick Search portlet has a Show Inactives preference under Home > Set Preferences."
-    ],
-    "correctIndex": [
-      0
-    ]
-  },
+ 
   {
     "question": "Given the following settings:\nCustomer Credit Limit Handling = Enforce Holds\nCustomer Credit Limit Includes Orders = True\nHow can you create Sales Orders for a Customer that has reached their Credit Limit? (Choose 1.)",
     "options": [
