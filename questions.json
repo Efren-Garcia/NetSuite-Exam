@@ -1333,7 +1333,9 @@
       "Global Search returns best matches quickly, but not every possible match. The Quick Search portlet returns all matching results.",
       "There is no preference to show inactive transactions when searching using Global Search. The Quick Search portlet has a Show Inactives preference, under Home > Set Preferences."
     ],
-    "correctIndex": [3]
+    "correctIndex": [
+      3
+    ]
   },
   {
     "question": "Which criteria are required for a field to be available for Mass Update? (Choose 2.)",
@@ -1591,5 +1593,103 @@
       "The custom role’s permission level for Import CSV File is set to Create."
     ],
     "correctIndex": 2
+  },
+  {
+    "question": "Which setting allows returned items to be counted as part of inventory?",
+    "options": [
+      "Return Authorization Status set to Pending Receipt",
+      "Receive Return > Clear Discard checkbox",
+      "Receive Return > Check Restock checkbox",
+      "Location Record > Check Make Inventory Available"
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": " How can the impact of intercompany purchases and sales be offset?",
+    "options": [
+      "Post journals to an elimination subsidiary.",
+      "Ensure the subsidiaries have the same parent.",
+      "Exclude one of the subsidiaries when reporting.",
+      "Set the same base currency in both subsidiaries."
+    ],
+    "correctIndex": [
+      0
+    ]
+  },
+  {
+    "question": " What is the impact of enabling the Advanced Shipping feature?",
+    "options": [
+      "Multi-step fulfillment is enabled.",
+      "Drop Ship functionality is automated.",
+      "Fulfillment is separated from invoicing.",
+      "Printing of integrated shipping labels is available."
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": "Which NetSuite roles can rename records/transactions?",
+    "options": [
+      "Administrator and System Administrator roles",
+      "Administrator and roles with permission to the record/transaction type",
+      "Administrator only",
+      "Administrator and roles with the Rename Records/Transactions permission"
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": "Which feature requires a user to agree to the Mass Messaging Application Terms of Service?",
+    "options": [
+      "Mail Merge",
+      "Capture Email Replies",
+      "Subscription Categories",
+      "Customer Relationship Manager"
+    ],
+    "correctIndex": [
+      0
+    ]
+  },
+  {
+    "question": "Where does an Administrator turn on custom Records?",
+    "options": [
+      "Users/Roles",
+      "Enable Features",
+      "Setup Customization",
+      "Company Preferences"
+    ],
+    "correctIndex": [
+      1
+    ]
+  },
+  {
+    "question": "In a OneWorld account, which two steps are required to make items taxable? (Choose 2)",
+    "options": [
+      "Assign a tax schedule on the item record.",
+      "Set the taxable flag on the Item to \"Yes\".",
+      "Create tax schedules for groups of Items.",
+      "Add the Item to the appropriate tax schedule."
+    ],
+    "correctIndex": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "Order (1,2,3) the sequence that should be followed to create a custom record.",
+    "options": [
+      "Create custom fields 2",
+      "Create necessary subtabs 1",
+      "Define record attributes and behavior first 3"
+    ],
+    "correctIndex": [
+      2,
+      1,
+      0
+    ]
   }
 ]
