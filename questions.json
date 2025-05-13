@@ -1193,18 +1193,7 @@
       1
     ]
   },
-  {
-    "question": "Which statement is true about dashboards? (Choose 1.)",
-    "options": [
-      "Portlet controls on dashboards are hidden, unless in full-screen view.",
-      "Only Administrators can arrange portlets on users' dashboards.",
-      "NetSuite Home page content depends on user roles.",
-      "Use drag and drop to move portlets between NetSuite dashboards."
-    ],
-    "correctIndex": [
-      2
-    ]
-  },
+  
   {
     "question": "A user is trying to view a standard report in NetSuite. The report has been loading for three minutes. The user suspects that the slowness is caused by using a recently installed browser. Which of the following actions will confirm that the performance issue is caused by the browser or not? (Choose 1.)",
     "options": [
