@@ -1669,5 +1669,126 @@
       1,
       0
     ]
+  },
+   {
+    "question": "Which Item type uses a parent item and subitems, to track items by options such as size and color",
+    "options": [
+      "Kit/Package Items",
+      "Assembly Items",
+      "Matrix Items",
+      "Special Order Items"
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": "Which statement is true about shorcuts",
+    "options": [
+      "The shorcut portlet has a maximum limit of 20 shortcuts that can be added",
+      "To delete a specific link from the shorcuts portlet, clic Remove from the portlet menu",
+      "Users can add shortcuts for social media accounts on the shorcuts portlet",
+      "For links to appear on both the shortcuts portlet and shortcuts menu, the link must be added to both separately"
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": "Which action creates a duplicate of the current record, requiring a unique name for saving",
+    "options": [
+      "Save and copy",
+      "Save as",
+      "Save and New",
+      "Save and Exit"
+    ],
+    "correctIndex": [
+      0
+    ]
+  },
+  {
+    "question": "a user needs to manage item progress data, What type of record can they use?",
+    "options": [
+      "prospect",
+      "lead",
+      "Opportunity",
+      "custom record"
+    ],
+    "correctIndex": [
+      3
+    ]
+  },
+  {
+    "question": "Which page identifies the bundles installed on a Netsuite account?",
+    "options": [
+      "Scripted records",
+      "Script Deployment",
+      "Script debugger",
+      "Search & Install Budgets List"
+    ],
+    "correctIndex": [
+      3
+    ]
+  },
+  {
+    "question": "Where can users find announcements, support articles, videos, help topics, and best practice documents for Netsuite?",
+    "options": [
+      "Help Center",
+      "SuiteIdeas",
+      "User Group",
+      "SuiteAnswers"
+    ],
+    "correctIndex": [
+      3
+    ]
+  },
+  {
+    "question": "When enable, Which preference shows some Customer records in List of contacts?",
+    "options": [
+      "Marge contacts with customer",
+      "show customer as contatacts",
+      "Show individuals as contacts",
+      "Default customer type"
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": "In which Center Type can users access the SuiteAnswers portlet",
+    "options": [
+      "Customer center",
+      "Employe center",
+      "partner center",
+      "Support center"
+    ],
+    "correctIndex": [
+      3
+    ]
+  },
+  {
+    "question": "What is the maximun number of custom KPIs that can be added to the Key Performance Indicators portlet?",
+    "options": [
+      "8",
+      "12",
+      "14",
+      "10"
+    ],
+    "correctIndex": [
+      3
+    ]
+  },
+  {
+    "question": "a user would like to create a custom record in Netsuite via CSV import, as being able to import would come in handly in the future, Which case severity should the user submit with the support case?",
+    "options": [
+      "C1 — Critical / Business Down",
+      "C2 - Urgent",
+      "C4 — Enhancement",
+      "C3 - How To / Functional"
+    ],
+    "correctIndex": [
+      1
+    ]
   }
+
 ]
