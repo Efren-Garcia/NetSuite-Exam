@@ -622,7 +622,7 @@
       "Transaction Audit Trail",
       "Transaction Numbering Audit Log"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "question": "Which portlet shows a graphical representation of Key Performance Indicator (KPI) data?",
@@ -775,7 +775,7 @@
       "A warning with a 180-second countdown shows before an idle session timeout occurs.",
       "Due to session synchronization, logging out of one tab ends the session for all other tabs in the same account."
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "question": "Which feature allows customers to view an online transaction history, get quotes, and make payments within NetSuite?",
@@ -1660,9 +1660,9 @@
   {
     "question": "Order (1,2,3) the sequence that should be followed to create a custom record.",
     "options": [
-      "Create custom fields 2",
-      "Create necessary subtabs 1",
-      "Define record attributes and behavior first 3"
+      "Create custom fields 3",
+      "Create necessary subtabs 2",
+      "Define record attributes and behavior first 1"
     ],
     "correctIndex": [
       2,
