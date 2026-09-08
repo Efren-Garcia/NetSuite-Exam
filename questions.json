@@ -1789,6 +1789,116 @@
     "correctIndex": [
       3
     ]
+  },
+  {
+    "question": "Which two record types can users set a Sales Rep Quota for? (Choose two)",
+    "options": [
+      "Customer",
+      "Transactions",
+      "Items",
+      "Promotions",
+      "Departments"
+    ],
+    "correctIndex": [
+      0,
+      4
+    ]
+  },
+  {
+    "question": "Which statement is true about portlets?",
+    "options": [
+      "The List portlet can be expanded to full-screen view.",
+      "The Available Reminders portlet is unlimited.",
+      "Custom Search portlet content automatically updates to the most recent data.",
+      "The Trend Graph portlet can allow up to one Key Performance Indicator only."
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": "Which statement is true about portlets?",
+    "options": [
+      "The List portlet can be expanded to full-screen view.",
+      "The Available Reminders portlet is unlimited.",
+      "Custom Search portlet content automatically updates to the most recent data.",
+      "The Trend Graph portlet can allow up to one Key Performance Indicator only."
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": "Which fields are set as mandatory by default when creating an Online Case Form record?",
+    "options": [
+      "Company Name, Incoming Message, and Email",
+      "Title, Incoming Message, and Account number",
+      "Title, Incoming Message, and Email",
+      "Company Name, Title, and Incoming Message"
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": "Which statement is true about editing or modifying roles",
+    "options": [
+      "Administrators can dd users on the Role record",
+      "Administrators can enable Two-Factor Authentication for a custom Vendor Center role",
+      "Administrators can update the ID of any role",
+      "Administrators can add more permissions to an Employee Center role"
+    ],
+    "correctIndex": [
+      1
+    ]
+  },
+  {
+    "question": "Peter has the following information on his Employee record: Supervisor = John- Manager = Mark - Purchase Approver = Stephen - If Peter submits a Purchase Request using his Employee Center role, who will approve the transaction?",
+    "options": [
+      "Mark",
+      "Stephen",
+      "John and Mark",
+      "John"
+    ],
+    "correctIndex": [
+      1
+    ]
+  },
+  {
+    "question": "How long is the default idle session timeout for the NetSuite user interface?",
+    "options": [
+      "2 hours",
+      "10 minutes",
+      "180 minutes",
+      "24 hours"
+    ],
+    "correctIndex": [
+      2
+    ]
+  },
+  {
+    "question": "Which statement is true when setting up a Tune Zone?",
+    "options": [
+      "Users can select a Time Zone from General Preferences.",
+      "Users can select a Time Zone from Set Preferences.",
+      "NetSuite automatically adjusts the Time Zone based on your location.",
+      "The NetSuite Time Zone is always Pacific Standard Time (PST)."
+    ],
+    "correctIndex": [
+      1
+    ]
+  },
+  {
+    "question": "Which statement is true about portlets?",
+    "options": [
+      "The List portlet can be expanded to full-screen view.",
+      "The Available Reminders portlet is unlimited.",
+      "Custom Search portlet content automatically updates to the most recent data.",
+      "The Trend Graph portlet can allow up to one Key Performance Indicator only."
+    ],
+    "correctIndex": [
+      2
+    ]
   }
 
 ]
