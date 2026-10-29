@@ -1,19 +1,31 @@
+/* Estilo original del cuestionario conservado con estilos adicionales para el horario. */
 body {
   font-family: Arial, sans-serif;
-  background-color: #eaf4f7; /* Azul claro */
+  background-color: #eaf4f7;
   padding: 20px;
   margin: 0;
-  color: #1f4d5f; /* Azul oscuro */
+  color: #1f4d5f;
 }
 
-.quiz-container {
+/* La propiedad hidden debe prevalecer sobre los display de los componentes. */
+[hidden] {
+  display: none !important;
+}
+
+.quiz-container,
+.access-panel {
   max-width: 700px;
   margin: auto;
   background: #ffffff;
   padding: 30px 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #1f4d5f;
 }
 
 h2 {
@@ -89,14 +101,14 @@ button {
   font-size: 1rem;
   border: none;
   border-radius: 6px;
-  background-color: #d8b15c; /* Oro mostaza */
+  background-color: #d8b15c;
   color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover:enabled {
-  background-color: #1f4d5f; /* Azul oscuro al pasar el mouse */
+  background-color: #1f4d5f;
 }
 
 button:disabled {
@@ -111,9 +123,72 @@ button:disabled {
   text-align: center;
 }
 
-/* Responsividad para móviles */
+/* Nuevo: pantalla de bloqueo y errores de conexión. */
+.access-panel {
+  text-align: center;
+  margin-top: 4vh;
+  padding: 40px 24px;
+}
+
+.access-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.access-panel p {
+  line-height: 1.6;
+}
+
+.access-schedule {
+  margin-top: 20px;
+  padding: 14px 10px;
+  background: #f2f8fa;
+  border-radius: 6px;
+}
+
+.access-countdown {
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+/* Nuevo: horario y tiempo restante durante el cuestionario. */
+.schedule-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 22px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  background: #f2f8fa;
+  font-size: 0.88rem;
+  font-weight: bold;
+}
+
+.time-remaining {
+  color: #946513;
+  white-space: nowrap;
+}
+
+.buttons-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.buttons-row button {
+  flex: 1;
+}
+
+.finished-panel {
+  text-align: center;
+  padding: 12px 0 20px;
+}
+
 @media (max-width: 600px) {
-  .quiz-container {
+  .quiz-container,
+  .access-panel {
     padding: 20px 15px;
   }
 
@@ -133,5 +208,9 @@ button:disabled {
 
   .scoreboard {
     font-size: 0.95rem;
+  }
+
+  .buttons-row {
+    display: block;
   }
 }

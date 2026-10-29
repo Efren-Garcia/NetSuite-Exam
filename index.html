@@ -3,28 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eaf4f7">
   <link rel="stylesheet" href="styles.css">
   <title>Quiz NetSuite</title>
 </head>
 <body>
+  <main>
+    <!-- Este panel es lo único que se muestra mientras se consulta el horario. -->
+    <section id="accessPanel" class="access-panel" aria-live="polite">
+      <div id="accessIcon" class="access-icon" aria-hidden="true">⌛</div>
+      <h1 id="accessTitle">Verificando horario...</h1>
+      <p id="accessMessage">Consultando la hora del servidor para validar el acceso.</p>
+      <p class="access-schedule">Horario diario: <strong>4:00 PM a 5:00 PM (UTC-6)</strong></p>
+      <p id="accessCountdown" class="access-countdown" hidden></p>
+    </section>
 
-  <div class="quiz-container">
-    <div class="scoreboard">
-      ✅ Correct: <span id="correctCount">0</span> |
-      ❌ Incorrect: <span id="incorrectCount">0</span>
-    </div>
+    <!-- El cuestionario permanece oculto hasta que se verifica el horario. -->
+    <section id="quizPanel" class="quiz-container" aria-label="Cuestionario NetSuite" hidden>
+      <div class="schedule-banner">
+        <span>Horario de acceso: 4:00 PM a 5:00 PM (UTC-6)</span>
+        <span id="timeRemaining" class="time-remaining" aria-live="off"></span>
+      </div>
 
-    <p id="progress">Question 1 of X</p>
-    
-    <h2 id="question">Loading question...</h2>
-    <div id="options"></div>
+      <div id="quizContent">
+        <div class="scoreboard">
+          ✅ Correct: <span id="correctCount">0</span> |
+          ❌ Incorrect: <span id="incorrectCount">0</span>
+        </div>
 
-    <button id="submitBtn" onclick="submitAnswer()" disabled>Submit Answer</button>
-    <button id="nextBtn" onclick="nextQuestion()" disabled>Next</button>
+        <p id="progress">Question 1 of X</p>
+        <h2 id="question">Loading question...</h2>
+        <div id="options"></div>
 
-  </div>
+        <div class="buttons-row">
+          <button id="submitBtn" type="button" onclick="submitAnswer()" disabled>Submit Answer</button>
+          <button id="nextBtn" type="button" onclick="nextQuestion()" disabled>Next</button>
+        </div>
+      </div>
+
+      <div id="finishedPanel" class="finished-panel" hidden>
+        <h2>Quiz Completed!</h2>
+        <p>✅ Correct answers: <strong id="finalCorrect">0</strong></p>
+        <p>❌ Incorrect answers: <strong id="finalIncorrect">0</strong></p>
+        <p>📊 Questions answered: <strong id="finalTotal">0</strong></p>
+      </div>
+    </section>
+  </main>
 
   <script src="script.js"></script>
-
 </body>
 </html>
