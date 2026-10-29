@@ -16,7 +16,7 @@
 
 // -------- Configuración --------
 const OPEN_HOUR_UTC = 22;        // 4:00 PM UTC-6
-const CLOSE_HOUR_UTC = 23;       // 5:00 PM UTC-6
+const CLOSE_HOUR_UTC = 24;       // 5:00 PM UTC-6
 const HOUR_MS = 60 * 60 * 1000;
 const DAY_MS = 24 * HOUR_MS;
 const SYNC_INTERVAL_MS = 10000;  // Sincronizar con el servidor cada 10 s
